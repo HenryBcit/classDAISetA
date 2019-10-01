@@ -4,6 +4,7 @@ import {
   Text,
   Button
 } from 'react-native';
+import Shenis from '../Shenis/Shenis';
 //import styles from './styles/MainStyles';
 
 function Main(){
