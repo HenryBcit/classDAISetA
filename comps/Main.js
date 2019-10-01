@@ -5,6 +5,7 @@ import {
   Button
 } from 'react-native';
 //import styles from './styles/MainStyles';
+import Irvin from "../comps/Irvin";
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
@@ -27,6 +28,7 @@ function Main(){
 
   return (
     <View>
+
       {menu}
       <Button
         title="Menu"
