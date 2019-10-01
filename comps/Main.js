@@ -4,7 +4,7 @@ import {
   Text,
   Button
 } from 'react-native';
-//import styles from './styles/MainStyles';
+import Janice from '../Janice/Janice';
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
