@@ -17,7 +17,7 @@ function App(){
 
   if (initialName === true){
     MyName = (
-    <View>
+    <View> 
         <Image
             style={{width: 150, height: 190, alignItems: 'center', justifyContent: 'center', borderRadius: 10}}
             source={require('../imgs/puppies.jpg')}
