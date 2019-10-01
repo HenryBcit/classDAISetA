@@ -7,36 +7,25 @@ import {
 //import styles from './styles/MainStyles';
 
 function Main(){
-  const [showMenu, setShowMenu] = useState(false);
+  const [showName, setShowName] = useState(false);
 
-  var menu = null;
-  if(showMenu === true){
-    menu = (
+  var name = null;
+  if(showName === true){
+    name = (
       <View>
-        <Button
-          title="Page 1"
-          onPress={()=>{}}
-        />
-        <Button
-          title="Page 2"
-          onPress={()=>{}}
-        />
+        <Text
+        title="Hieeeeeee" />
       </View>
     )
   }
 
   return (
     <View>
-      {menu}
+      {name}
       <Button
-        title="Menu"
+        title="Jaydan Kai"
         onPress={()=>{
-          setShowMenu(!showMenu);
-        }}
-      />
-      <Button
-        title="Image"
-        onPress={()=>{
+          setShowName(!showName);
         }}
       />
     </View>
