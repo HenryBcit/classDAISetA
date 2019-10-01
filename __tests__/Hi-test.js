@@ -4,11 +4,12 @@
 
 import 'react-native';
 import React from 'react';
-import Main from '../comps/Main';
+import Hi from '../Cynthia/Hi';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
+import Hi from '../Cynthia/Hi';
 
-it.skip('renders Main correctly', () => {
-  renderer.create(<Main />);
+it('renders Hi correctly', () => {
+  renderer.create(<Hi />);
 });

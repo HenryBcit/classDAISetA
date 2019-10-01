@@ -4,9 +4,11 @@ import {
   Text,
   Button
 } from 'react-native';
+import Shenis from '../Shenis/Shenis';
 //import styles from './styles/MainStyles';
 import Tin from "../Tin/Tin";
-
+import Hi from '../Cynthia/Hi';
+import Peter from '../Peter/Peter';
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
 
@@ -40,6 +42,7 @@ function Main(){
         onPress={()=>{
         }}
       />
+      <Peter />
     </View>
   );
 };
