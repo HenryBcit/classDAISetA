@@ -3,7 +3,7 @@ import {View, Text, Image} from 'react-native';
 
 function NameGreeting(){
     const [sayHi, setSayHi] = useState(false);
-    var msg = null;
+    var msg = "Kaan Darcey";
     if(sayHi == true){
         msg = (
             <View>
@@ -15,7 +15,7 @@ function NameGreeting(){
         <View>
             <Text style={{color:"#BED", fontFamily:"sans-sariff", fontSize:"16", fontStyle:"italic"}} onPress={()=>{
                 setSayHi(!sayHi)
-            }}>Kaan Darcey</Text>
+            }}>{msg</Text>
         </View>
     )
 }
