@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21d8f134-8d21-41c7-82fe-0dfa9770a1a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tin/Tin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__tests__/Tin-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comps/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/comps/Main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +25,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569954576614</updated>
-      <workItem from="1569954578688" duration="1033000" />
+      <workItem from="1569954578688" duration="1468000" />
     </task>
     <servers />
   </component>
