@@ -5,7 +5,7 @@ import {
   Button
 } from 'react-native';
 //import styles from './styles/MainStyles';
-
+import Naomi from '../comps/Naomi'
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
 
