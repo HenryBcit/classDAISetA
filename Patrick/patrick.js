@@ -20,7 +20,7 @@ function App(){
   return (
   <View>
     <Main />
-    <Text>hello helfflo</Text>
+    <Text>hello fsdsddssd</Text>
   </View>
 
 
