@@ -4,11 +4,12 @@
 
 import 'react-native';
 import React from 'react';
-import Main from '../comps/Main';
+import Monika from '../Monika/Monika';
+
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-it.skip('renders Main correctly', () => {
-  renderer.create(<Main />);
+it('renders Monika correctly', () => {
+  renderer.create(<Monika />);
 });
