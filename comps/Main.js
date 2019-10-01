@@ -8,6 +8,23 @@ import Shenis from '../Shenis/Shenis';
 //import styles from './styles/MainStyles';
 import Hi from '../Cynthia/Hi';
 
+
+function Menu(){
+  var menuNames = [Shenis, Hi];
+
+  var MenuButtons = menuNames.map((obj,i)=>{
+    <Button
+      key={i}
+      onPress={()=>{}}
+    />
+  })
+  return (
+    <ScrollView>
+      <MenuButtons />
+    </ScrollView>
+  )
+}
+
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
 
