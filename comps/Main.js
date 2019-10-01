@@ -5,42 +5,13 @@ import {
   Button
 } from 'react-native';
 //import styles from './styles/MainStyles';
+import Tin from "../Tin/Tin";
 
-function Main(){
-  const [showMenu, setShowMenu] = useState(false);
+function Main() {
 
-  var menu = null;
-  if(showMenu === true){
-    menu = (
-      <View>
-        <Button
-          title="Page 1"
-          onPress={()=>{}}
-        />
-        <Button
-          title="Page 2"
-          onPress={()=>{}}
-        />
-      </View>
+    return (
+        <Tin/>
     )
-  }
-
-  return (
-    <View>
-      {menu}
-      <Button
-        title="Menu"
-        onPress={()=>{
-          setShowMenu(!showMenu);
-        }}
-      />
-      <Button
-        title="Image"
-        onPress={()=>{
-        }}
-      />
-    </View>
-  );
-};
+}
 
 export default Main;
