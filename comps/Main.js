@@ -5,6 +5,7 @@ import {
   Button
 } from 'react-native';
 //import styles from './styles/MainStyles';
+import Hi from '../Cynthia/Hi';
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
